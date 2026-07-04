@@ -12,7 +12,7 @@ public class Recursive_Insertion_Sort {
             arr[j] = temp;
             j--;
         }
-        
+
         logic(arr, size, i+1);
 
         return arr;
