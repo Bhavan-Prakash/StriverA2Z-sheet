@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Peak_element_in_Array {
 
     public int logic(int[] arr){

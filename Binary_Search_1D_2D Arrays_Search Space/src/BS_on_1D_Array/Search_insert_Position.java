@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Search_insert_Position {
 
     public int logic(int[] arr, int x){

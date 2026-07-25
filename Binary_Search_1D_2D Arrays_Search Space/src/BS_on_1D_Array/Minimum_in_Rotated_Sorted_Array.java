@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Minimum_in_Rotated_Sorted_Array {
 
     public int logic(int[] arr){

@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Upper_Bound {
     public int logic(int[] arr, int size, int x) {
 

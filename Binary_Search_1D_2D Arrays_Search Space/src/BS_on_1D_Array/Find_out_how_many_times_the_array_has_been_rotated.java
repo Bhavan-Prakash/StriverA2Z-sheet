@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Find_out_how_many_times_the_array_has_been_rotated {
 
     public int logic(int[] arr){

@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Floor_and_Ceil {
 
     public int ceil(int[] arr, int x){

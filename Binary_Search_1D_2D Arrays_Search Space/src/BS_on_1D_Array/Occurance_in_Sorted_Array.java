@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Occurance_in_Sorted_Array {
 
     public int first_occ(int[] arr, int x, int size){

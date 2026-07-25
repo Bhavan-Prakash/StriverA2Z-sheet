@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Search_Single_Element_in_a_sorted_array {
 
     public int logic(int[] arr){

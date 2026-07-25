@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Search_Element_in_a_Rotated_Sorted_Array_II {
 
     public boolean logic(int[] arr, int k){

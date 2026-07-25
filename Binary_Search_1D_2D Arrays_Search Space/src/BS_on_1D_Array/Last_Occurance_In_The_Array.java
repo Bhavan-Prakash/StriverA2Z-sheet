@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Last_Occurance_In_The_Array {
 
     public int logic(int[] arr, int target, int size){

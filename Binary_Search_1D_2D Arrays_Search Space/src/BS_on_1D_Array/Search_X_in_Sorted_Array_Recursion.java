@@ -1,3 +1,5 @@
+package BS_on_1D_Array;
+
 public class Search_X_in_Sorted_Array_Recursion {
 
     public int logic(int[] arr, int low, int high, int target){
