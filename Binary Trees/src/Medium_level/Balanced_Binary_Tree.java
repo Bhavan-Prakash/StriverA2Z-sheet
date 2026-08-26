@@ -11,6 +11,20 @@ class sol{
         return Math.max(leftheight, rightheight) + 1;
 
     }
+
+    public boolean isBalanced(Tree root) {
+
+        if (root == null) return true;
+
+        int leftheight = height(root.left);
+        int rightheight = height(root.right);
+
+        if (Math.abs(leftheight - rightheight) > 1) {
+            return false;
+        }
+
+        return isBalanced(root.left) && isBalanced(root.right);
+    }
 }
 
 public class Balanced_Binary_Tree {
@@ -23,12 +37,13 @@ public class Balanced_Binary_Tree {
         root.left.right = new Tree(5);
 
         sol sl = new sol();
-        int ans = sl.height(root);
-        if(ans > 1){
-            System.out.println(false);
-        }else{
-            System.out.println(true);
-        }
+        boolean ans = sl.isBalanced(root);
+        System.out.println(ans);
+//        if(ans > 1){
+//            System.out.println(false);
+//        }else{
+//            System.out.println(true);
+//        }
     }
 
 }
